@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.animeVideoSource = exports.anime = exports.genre = exports.genreList = exports.search = exports.recentRelease = void 0;
 const axios_1 = __importDefault(require("axios"));
 const cheerio_1 = __importDefault(require("cheerio"));
-const BASEURL = "https://otakudesu.ltd";
+const BASEURL = "https://otakudesu.su";
 const recentRelease = async (page = 1) => {
     let list = [];
     try {
